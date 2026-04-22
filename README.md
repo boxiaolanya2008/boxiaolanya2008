@@ -12,6 +12,6 @@
 ## Repository Stats
 
 <p>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boxiaolanya2008&theme=default" height="200" alt="github stats" />
+  <img src="./profile-summary-card-output/stats.png" height="200" alt="github stats" />
   <img src="anime.png" height="200" alt="anime" />
 </p>
