@@ -30,14 +30,23 @@
 ## GitHub Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=boxiaolanya2008&show_icons=true&theme=radical&hide_border=true" height="170" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxiaolanya2008&layout=compact&theme=radical&hide_border=true" height="170" alt="langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=boxiaolanya2008&show_icons=true&theme=default&hide_border=true" height="170" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxiaolanya2008&layout=compact&theme=default&hide_border=true" height="170" alt="langs" />
 </p>
 
 <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boxiaolanya2008&theme=radical&hide_border=true" alt="streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boxiaolanya2008&theme=default&hide_border=true" alt="streak" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=100&section=footer" alt="footer" />
+---
+
+## Repository Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=boxiaolanya2008&show_icons=true&theme=default&hide_border=true&custom_title=Repository%20%26%20Code%20Stats&include_all_commits=true&count_private=true" alt="repo stats" />
+</p>
+
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=boxiaolanya2008&theme=default" alt="repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=boxiaolanya2008&theme=default" alt="most commit language" />
 </p>
