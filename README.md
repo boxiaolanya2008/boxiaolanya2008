@@ -14,3 +14,9 @@
 <p>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boxiaolanya2008&theme=default" alt="github stats" />
 </p>
+
+## Anime Corner
+
+<p align="center">
+  <img src="./images/anime.png" width="350" alt="anime" />
+</p>
