@@ -14,9 +14,3 @@
 <p>
   <img src="https://raw.githubusercontent.com/boxiaolanya2008/boxiaolanya2008/main/profile-summary-card-output/default/0-profile-details.svg" alt="profile details" />
 </p>
-
-## Repository Stats
-
-<p>
-  <img src="./profile-summary-card-output/default/3-stats.svg" height="200" alt="github stats" />
-</p>
