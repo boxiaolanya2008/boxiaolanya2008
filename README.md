@@ -1,8 +1,8 @@
 ## GitHub Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=boxiaolanya2008&show_icons=true&theme=default&hide_border=true" height="170" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxiaolanya2008&layout=compact&theme=default&hide_border=true" height="170" alt="langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=boxiaolanya2008&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boxiaolanya2008&layout=compact&theme=default&hide_border=true&langs_count=6" alt="langs" />
 </p>
 
 <p>
@@ -12,6 +12,5 @@
 ## Repository Stats
 
 <p>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=boxiaolanya2008&theme=default" alt="repos per language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=boxiaolanya2008&theme=default" alt="most commit language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boxiaolanya2008&theme=default" alt="github stats" />
 </p>
