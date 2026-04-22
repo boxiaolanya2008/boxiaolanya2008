@@ -9,6 +9,12 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=boxiaolanya2008&theme=default&hide_border=true" alt="streak" />
 </p>
 
+## Profile Details
+
+<p>
+  <img src="https://raw.githubusercontent.com/boxiaolanya2008/boxiaolanya2008/main/profile-summary-card-output/default/0-profile-details.svg" alt="profile details" />
+</p>
+
 ## Repository Stats
 
 <p>
