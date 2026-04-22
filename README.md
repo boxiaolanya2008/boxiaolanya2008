@@ -15,3 +15,19 @@
   <img src="https://raw.githubusercontent.com/boxiaolanya2008/boxiaolanya2008/main/profile-summary-card-output/default/0-profile-details.svg" alt="profile details" />
 </p>
 
+## Repositories
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=boxiaolanya2008&repo=claude-code-next&theme=default&hide_border=true" alt="claude-code-next" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=boxiaolanya2008&repo=NexusMind&theme=default&hide_border=true" alt="NexusMind" />
+</p>
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=boxiaolanya2008&repo=DataBaseEditor&theme=default&hide_border=true" alt="DataBaseEditor" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=boxiaolanya2008&repo=Nexus-Flow&theme=default&hide_border=true" alt="Nexus-Flow" />
+</p>
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=boxiaolanya2008&repo=Student-Answering-System&theme=default&hide_border=true" alt="Student-Answering-System" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=boxiaolanya2008&repo=boxiaolanya2008.github.io&theme=default&hide_border=true" alt="boxiaolanya2008.github.io" />
+</p>
