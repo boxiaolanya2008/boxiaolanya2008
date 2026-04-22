@@ -18,5 +18,5 @@
 ## Anime Corner
 
 <p align="center">
-  <img src="./images/anime.png" width="350" alt="anime" />
+  <img src="anime.png" width="350" alt="anime" />
 </p>
