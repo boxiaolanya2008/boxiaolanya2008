@@ -2,7 +2,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天自动运行
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,9 +14,37 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           AUTO_PUSH: true
+
+      - name: Update README with Repositories
+        run: |
+          # 获取所有仓库信息
+          repos=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/users/${{ github.repository_owner }}/repos?per_page=100&type=owner" \
+            | jq -r '.[] | select(.fork == false) | "\(.name)|\(.stargazers_count)|\(.language // "N/A")|\(.description // "No description")"' \
+            | sort -t'|' -k2 -nr \
+            | head -6)
+          
+          # 生成仓库卡片 Markdown
+          repo_cards=""
+          while IFS='|' read -r name stars lang desc; do
+            repo_cards="${repo_cards}\n[![${name}](https://github-readme-stats.vercel.app/api/pin/?username=${{ github.repository_owner }}&repo=${name}&theme=default&hide_border=true)](https://github.com/${{ github.repository_owner }}/${name})"
+          done <<< "$repos"
+          
+          # 更新 README.md
+          sed -i '/## Repositories/,/<!-- REPO-LIST-END -->/c\## Repositories\n\n<!-- REPO-LIST-START -->\n'"$repo_cards"'\n<!-- REPO-LIST-END -->' README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update profile summary cards and repository list"
+          git push
