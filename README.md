@@ -19,5 +19,4 @@
 
 <p>
   <img src="./profile-summary-card-output/default/3-stats.svg" height="200" alt="github stats" />
-  <img src="anime.png" height="200" alt="anime" />
 </p>
