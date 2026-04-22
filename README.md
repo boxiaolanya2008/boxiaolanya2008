@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F75C7E,100:FF9A9E&height=200&section=header&text=Hey!%20Welcome&fontSize=50&fontColor=ffffff" alt="header" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Java+Developer;Android+%7C+Kotlin+%7C+Node.js" alt="typing" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00C9FF,50:92FE9D,100:00C9FF&height=300&section=header&text=boxiaolanya2008&fontSize=70&fontColor=fff&animation=twinkling&stroke=000&strokeWidth=2&desc=Hello%2C%20World&descSize=25&descAlignY=75" alt="header" />
 </p>
 
 <p align="center">
@@ -17,7 +13,6 @@
 - 专注于 Android 原生开发与 Java 后端
 - 正在深入学习 Kotlin Coroutines 与 Node.js 全栈
 - 热爱开源，喜欢造轮子
-- 通过 GitHub Issues 或 Discussion 联系我
 
 ---
 
@@ -41,4 +36,8 @@
 
 <p>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=boxiaolanya2008&theme=radical&hide_border=true" alt="streak" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=100&section=footer" alt="footer" />
 </p>
